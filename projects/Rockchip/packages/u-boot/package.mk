@@ -18,9 +18,13 @@ case ${DEVICE} in
     PKG_VERSION="d34ff0716"
     PKG_GIT_CLONE_BRANCH="v2017.09-rk3588"
   ;;
-  RK356*)
+  RK3566|RK3566-X55)
     PKG_URL="${PKG_SITE}/rk356x-uboot.git"
     PKG_VERSION="4dbf6b2"
+  ;;
+  RK3566-RG503)
+    PKG_URL="https://source.denx.de/u-boot/u-boot.git"
+    PKG_VERSION="375fea811d3e45b47ee8a60f1f36a1d036660736"
   ;;
   RK3399)
     PKG_URL="${PKG_SITE}/rk3399-uboot.git"

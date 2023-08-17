@@ -30,6 +30,10 @@ case ${DEVICE} in
     GET_HANDLER_SUPPORT="git"
     PKG_GIT_CLONE_BRANCH="main"
   ;;
+  *RG503)
+    PKG_VERSION="6.4.9"
+    PKG_URL="https://www.kernel.org/pub/linux/kernel/v6.x/${PKG_NAME}-${PKG_VERSION}.tar.xz"
+  ;;
   *X55)
     PKG_URL="${PKG_SITE}/rk3566-x55-kernel.git"
     PKG_VERSION="a514c4665"
